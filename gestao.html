@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Leitos - Decós Hospital</title>
+    <link rel="stylesheet" href="gestao.css">
+</head>
+<body>
+    
+    
+    <div class="container">
+        <div class="logo">
+            <img src="decos.png" alt="Logo Decós Hospital">
+        </div>
+        <div class="header">
+            <h1>Gestão de Leitos</h1>
+        </div>
+        <a href="leitospendentes.html">
+            <div class="card leitos-pendentes" id="leitosPendentesCard">
+                <p>Leitos Pendentes</p>
+                <span class="notification-dot" id="notificationDot"></span>
+            </div>
+        </a>
+        <a href="leitosdisponiveis.html">
+            <div class="card leitos-disponiveis">
+                <p>Leitos Disponíveis</p>
+            </div>
+        </a>
+        <button type="button" id="addLeitoButton" class="action-button">Adicionar Leitos</button>
+        <button type="button" id="removeLeitoButton" class="action-button">Remover Leito</button>
+        <button type="button" id="logoutButton" class="action-button logout-button" onclick="window.location.href='index.html'">Sair</button>
+    </div>
+    <script src="gestao.js"></script>
+</body>
+</html>

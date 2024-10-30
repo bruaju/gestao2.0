@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+a {
+    text-decoration: none; 
+}
+
+
+.action-button {
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 15px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    margin: 5px 0; 
+    transition: background-color 0.3s ease, transform 0.2s; 
+}
+
+.logo img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+#addLeitoButton {
+    width: 250px;
+    background-color: #720000; 
+}
+
+#addLeitoButton:hover {
+    background-color: #910000; 
+}
+
+
+#removeLeitoButton {
+    width: 250px;
+    background-color: #f44336; 
+}
+
+#removeLeitoButton:hover {
+    background-color: #d32f2f; 
+}
+
+
+#logoutButton {
+    background-color: #b60000; 
+    margin-top: 20px; 
+}
+
+#logoutButton:hover {
+    background-color: #e60000; 
+}
+
+.container {
+    width: 320px;
+    background-color: #dddddd;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    color: #8b0000;
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.card {
+    background-color: #e6e6e6;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.leitos-pendentes {
+    background-color: #8b0000; 
+    color: white;
+    transition: background-color 0.3s; 
+}
+
+.leitos-pendentes:hover {
+    background-color: #b22222; 
+}
+
+.leitos-disponiveis {
+    background-color: #0073a8; 
+    color: white;
+    transition: background-color 0.3s; 
+}
+
+.leitos-disponiveis:hover {
+    background-color: #1e90ff; 
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.notification-dot {
+    background-color: red;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: -6px; 
+    right: -6px; 
+}
